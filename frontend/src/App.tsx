@@ -17,9 +17,9 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Provider store={store}>
-        <div className="bg-black text-white min-h-screen">
+        <div className="min-h-screen">
           <div className="container mx-auto p-4 max-w-screen-md">
-            <h1 className="text-4xl font-extrabold mb-8 text-center">
+            <h1 className="text-4xl font-extrabold font-serif mb-8 text-center">
               Feedback App
             </h1>
             <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
