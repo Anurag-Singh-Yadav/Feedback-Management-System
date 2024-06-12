@@ -23,7 +23,7 @@ export const FeedbackList = () => {
 
   return (
     <div className="mt-8">
-      <h2 className="text-xl mb-4 font-semibold text-gray-800">
+      <h2 className="text-xl mb-4 font-semibold">
         Feedback List
       </h2>
       <div>

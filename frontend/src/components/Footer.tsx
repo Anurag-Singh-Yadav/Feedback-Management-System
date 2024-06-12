@@ -1,13 +1,12 @@
+import { FaGithub } from "react-icons/fa";
 export const Footer = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-center items-center mt-12 py-6 font-medium text-gray-700 bg-gray-300">
+    <div className="flex flex-col sm:flex-row gap-3 border justify-center items-center mt-12 py-6 font-medium ">
       <div>
-        Made with <span className="text-red-500 px-1.5 text-xl">❤️</span> by
+        FeedBack Managememt System 
       </div>
-      <a href="https://github.com/tanishkadeep">
-        <span className="hover:underline pl-2 font-extrabold">
-          Tanishka Deep
-        </span>
+      <a href="https://github.com/Anurag-Singh-Yadav">
+        <FaGithub size={25}/>
       </a>
     </div>
   );
